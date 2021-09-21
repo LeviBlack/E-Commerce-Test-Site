@@ -8,12 +8,18 @@ export default makeStyles(() => ({
     height: 0,
     paddingTop: '56.25%', // 16:9
   },
-  cardActions: {
-    display: 'flex',
-    justifyContent: 'flex-end',
-  },
   cardContent: {
+    display:'flex', 
+    justiyContent:'space-between', 
+    flexDirection:'column' 
+  },
+  cartActions: {
     display: 'flex',
     justifyContent: 'space-between',
   },
+  buttons: {
+    display: 'flex',
+    alignItems: 'center',
+  },
+  
 }));

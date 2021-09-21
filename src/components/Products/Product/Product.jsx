@@ -10,7 +10,7 @@ const Product = ({product, onAddToCart}) => {
 
     
     return (
-        <Card className={classes.root}>
+        <Card style={{ height: '100%' }} className={classes.root}>
            <CardMedia className={classes.media} image={product.media.source} title={product.name}/> 
            <CardContent>
            <div className={classes.cardContent}>
