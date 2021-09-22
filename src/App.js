@@ -48,7 +48,7 @@ const App = () => {
     }
 
     const refreshCart = async () => {
-        const newCart = await commerce.cart.refresh()
+        const newCart = await commerce.cart.newCart()
 
         setCart(newCart)
     }
